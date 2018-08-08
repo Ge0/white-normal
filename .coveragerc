@@ -1,0 +1,14 @@
+[run]
+branch = True
+source = white_normal
+
+[paths]
+source =
+    src/white_normal
+    .tox/*/lib/python*/site-packages/white_normal
+
+[report]
+;fail_under = 100
+show_missing = True
+exclude_lines =
+    if __name__ == .__main__.:
